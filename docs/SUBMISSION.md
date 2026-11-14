@@ -224,10 +224,10 @@ tout vert** (`npx vitest run`).
 | 2 | README : l'idée, le vocabulaire, ce que l'app ne fait pas, l'état du chantier | `README.md` | fait |
 | 3 | recette des vingt points, avec la commande exacte et l'état réel | `docs/RECETTE.md`, `docs/RECETTE-POINTS.md` | **fait** : 20/20 points mesurés le 13/11/2026 sur `7c468f7` |
 | 4 | jeu de données de démonstration | `src/sample/demo-project.ts` (§26, testé) | fait |
-| 5 | scénario de la vidéo minuté et liste des captures | `docs/VIDEO-SCRIPT.md` | fait (plan) ; **la vidéo reste à tourner** |
+| 5 | scénario de la vidéo minuté, **la vidéo montée**, et la liste des captures | `docs/VIDEO-SCRIPT.md`, `docs/VIDEO.md`, `tools/video/`, [release `video-2026-11-14`](https://github.com/Tradoooo/trame/releases/tag/video-2026-11-14) | **fait** : 4:37, 1920×1080, voix anglaise, sous-titres inclus |
 | 6 | instructions aux jugés, y compris l'installation en cinq minutes | `docs/JUDGES.md` | **fait** : 455 tests, app déployée en production |
 | 7 | application déployée sur un site | `one-atlas-cndz.atlassian.net`, `v2.1.0` **production** | **fait** (déployée en production, installée en Jira et en Confluence) ; l'interface UI Kit 2 rend les onze écrans — capture à l'appui |
-| 8 | liens de démonstration et de vidéo publiés dans la fiche de soumission | §5 | démonstration **fait** (site public en ligne) ; vidéo **à faire** |
+| 8 | liens de démonstration et de vidéo publiés dans la fiche de soumission | §5 | **fait** : [`https://tradoooo.github.io/trame/`](https://tradoooo.github.io/trame/) + [vidéo](https://github.com/Tradoooo/trame/releases/tag/video-2026-11-14) (reste à coller les deux liens dans le formulaire) |
 | 9 | bonus Teamwork Graph, Agents Rovo, MCP, Marketplace cochés, avec la preuve dans le dépôt | §2 | fait : permissions et rectification TWG, agent `le-fil`, prompt, skill, 14 outils + 4 actions internes avec leurs corps et leurs tests, manifeste de 18 types de modules |
 | 10 | discipline d'honnêteté opposable | §5 et §14 du cahier des charges ; `tests/contract/honesty.test.ts` | fait |
 | 11 | licence | `LICENSE` (MIT) | fait |

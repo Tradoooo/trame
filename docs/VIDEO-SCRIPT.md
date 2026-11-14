@@ -81,6 +81,35 @@ needed to film it; the app is deployed and installed, so the Jira and Confluence
 pages can be filmed as they are. Only the three items of §0.2 remain, and they
 are stated on screen.
 
+### 0.5 Status on 14 November: the video is cut — `docs/VIDEO.md`
+
+The shots below are no longer a plan, they are a delivered file: **4:37**,
+1920×1080, 30 fps, English voice (`en-US-AndrewNeural`), subtitles embedded as a
+second track. `docs/VIDEO.md` carries the measured table — the twelve shots, the
+duration each one actually took, the deviation from the §25 timing, and where
+every frame comes from. `tools/video/` carries the chain that rebuilds it.
+
+Three deliberate departures from this script, all stated rather than hidden:
+
+1. **Two slots added** (a title card at 0:00, the test-suite terminal at the
+   end). The closing card is a real terminal reading `npx vitest run` →
+   **54 files, 455 green tests**, not a composed logo.
+2. **The voice sets the length.** Seven shots run shorter than their §25 slot
+   and none runs long enough to need trimming: the narration is what
+   `tools/video/scenes.py` contains, word for word, and no sentence was cut to
+   hit a timecode. Total drift against the 4:45 target: **−8 s**.
+3. **The Rovo shot is a terminal, not Rovo Chat.** §1 (3:05–3:25) allows it —
+   *"if it does not answer, film the tool through the dispatcher or the
+   terminal and keep the same voice-over"* — and the tenant cannot be relied on
+   the day of a submission. So the frame shows `manifest.yml`'s fourteen MCP
+   tools, the contract test going green, and `NOT_IMPLEMENTED` in
+   `src/ingest/llm.ts`: the tools are real, the model-written text is not, and
+   the shot says both.
+
+The three prohibitions of §0.2 held: no UI Kit 2 drawing composited over a Jira
+page, no model-generated sentence, no Confluence page presented as a written
+certificate. Each affected shot carries the caveat in its lower band.
+
 ## 1. The run of shots (§25, timing kept)
 
 The **measured demo figures** — the ones to put on screen. They come from the

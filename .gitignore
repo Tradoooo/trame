@@ -6,3 +6,5 @@ coverage/
 .npm-state/
 site/dist/
 *.log
+.video/
+.video-venv/
