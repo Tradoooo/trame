@@ -186,8 +186,8 @@ Détail : [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
 | `src/index.ts`, `ports.ts`, `types.ts`, `deps.ts` | câblage Forge gelé, frontière de ports, contrats |
 | `site/` | le site public (Vite + React) ; sa démo importe `src/domain/*`, `npm run site:build` |
 | `static/` | icône, prompt de l'agent Rovo, skill `before-closing-a-ticket` |
-| `tests/` | 53 fichiers, miroir de `src/`, fakes en mémoire et horloge fixe |
-| `tools/` | gardes locales : limites de fichiers et de fonctions, manifeste, workflows |
+| `tests/` | 54 fichiers, miroir de `src/`, fakes en mémoire et horloge fixe |
+| `tools/` | gardes locales : limites de fichiers et de fonctions, manifeste, workflows ; `tools/video/` : la chaîne qui rejoue la vidéo de soumission |
 | `docs/` | spécification (§n cité partout), contrats, architecture, recette, dossier de soumission |
 | `manifest.yml` | les modules Forge (panneaux, pages, champs, JQL, validateur, déclencheurs, outils) et leurs permissions |
 
@@ -206,8 +206,12 @@ Détail : [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
   point vérifie, la commande exacte, le fichier de test, l'état réel ;
 - [docs/JUDGES.md](docs/JUDGES.md) — guide du jury : Trame en trente secondes, les
   trois jugements, ce que l'app ne fait pas, les dix questions ;
-- [docs/VIDEO-SCRIPT.md](docs/VIDEO-SCRIPT.md) — le scénario de la vidéo, minuté
-  (0:00 → 4:45), et les quatre captures à tourner ;
+- [docs/VIDEO.md](docs/VIDEO.md) — **la vidéo livrée** : 4:37, 1920×1080, voix
+  anglaise, sous-titres sur une 2e piste ; la durée mesurée de chaque plan, la source
+  réelle de chaque image, et ce qu'elle ne montre pas
+  ([release `video-2026-11-14`](https://github.com/Tradoooo/trame/releases/tag/video-2026-11-14)) ;
+- [docs/VIDEO-SCRIPT.md](docs/VIDEO-SCRIPT.md) — le scénario minuté (0:00 → 4:45) dont
+  la vidéo ci-dessus est l'exécution, avec les écarts consentis (§0.5) ;
 - [docs/SUBMISSION.md](docs/SUBMISSION.md) — la fiche de soumission : nom public,
   slogan, bonus visés, architecture, ce qui est prêt, checklist.
 
