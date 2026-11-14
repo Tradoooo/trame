@@ -36,6 +36,11 @@ Le Chrome système est piloté par `TRAME_CHROME` (défaut
 don passe par `playwright-core` + le binaire système, **headless, sans prendre le
 focus**.
 
+La densité de pixels est portée par `deviceScaleFactor: 1` du contexte Playwright :
+aucun flag `--force-…` sur la ligne de commande. La garde `couche0` refuse tout
+argument en `--force` (motif « push forcé sans --force-with-lease ») et le contexte
+suffit — vérifié sans le flag, sortie 1920×1080, cadrage `ok:true`.
+
 ## Ce qui est interdit dans ces plans
 
 `docs/VIDEO-SCRIPT.md` §0.2 liste les trois choses qui n'existent pas ; la chaîne
