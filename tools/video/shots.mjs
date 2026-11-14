@@ -314,7 +314,7 @@ async function main() {
   const browser = await chromium.launch({
     executablePath: CHROME,
     headless: true,
-    args: ["--force-device-scale-factor=1", "--hide-scrollbars", "--no-sandbox", "--disable-gpu"],
+    args: ["--hide-scrollbars", "--no-sandbox", "--disable-gpu"],
   });
   for (const plan of plans) {
     await enregistre(browser, plan);
