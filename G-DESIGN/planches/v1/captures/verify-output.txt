@@ -1,0 +1,12 @@
+OK  01-comprendre.html | 1440x900 | 0 erreur JS | 0 requête externe | marque:1 badge:1 scène:1 | chevauchements:0 | data-src:3 | reduced-motion native:false
+OK  01-comprendre.html | 390x844 | 0 erreur JS | 0 requête externe | marque:1 badge:1 scène:1 | chevauchements:0 | data-src:3 | reduced-motion native:false
+OK  02-probleme.html | 1440x900 | 0 erreur JS | 0 requête externe | marque:1 badge:1 scène:1 | chevauchements:0 | data-src:2 | reduced-motion native:false
+OK  02-probleme.html | 390x844 | 0 erreur JS | 0 requête externe | marque:1 badge:1 scène:1 | chevauchements:0 | data-src:2 | reduced-motion native:false
+OK  03-pipeline.html | 1440x900 | 0 erreur JS | 0 requête externe | marque:1 badge:1 scène:1 | chevauchements:0 | data-src:0 | reduced-motion native:false
+OK  03-pipeline.html | 390x844 | 0 erreur JS | 0 requête externe | marque:1 badge:1 scène:1 | chevauchements:0 | data-src:0 | reduced-motion native:false
+OK 03-pipeline | 8 étapes du pipeline réel présentes (attendu 8)
+OK  04-produit.html | 1440x900 | 0 erreur JS | 0 requête externe | marque:1 badge:1 scène:1 | chevauchements:0 | data-src:4 | reduced-motion native:false
+OK  04-produit.html | 390x844 | 0 erreur JS | 0 requête externe | marque:1 badge:1 scène:1 | chevauchements:0 | data-src:4 | reduced-motion native:false
+OK  05-preuves.html | 1440x900 | 0 erreur JS | 0 requête externe | marque:1 badge:1 scène:1 | chevauchements:0 | data-src:5 | reduced-motion native:false
+OK  05-preuves.html | 390x844 | 0 erreur JS | 0 requête externe | marque:1 badge:1 scène:1 | chevauchements:0 | data-src:5 | reduced-motion native:false
+OK 05-preuves | chiffres tracés: README.md, README.md, src/db/schema.ts, docs/SUBMISSION.md, docs/RECETTE.md

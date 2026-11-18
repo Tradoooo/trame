@@ -1,0 +1,28 @@
+/* theme.css — v3 identity tokens: linen (light) + denim indigo (dark), one accent = the weft.
+   Denim is literally an indigo-dyed twill: it bridges the woven metaphor and the Jira blue. */
+:root {
+  --linen: #F1ECE2;     /* page */
+  --linen-2: #E7E0D2;   /* swatches, chips */
+  --flax: #CDBFA4;      /* rules, warp shade */
+  --ink: #12141C;       /* indigo-tinted black */
+  --ink-2: #474B57;     /* 7.7:1 on linen */
+  --rule: #CDBFA4;
+  --accent: #0052CC;    /* Jira blue, 6.0:1 on linen: the weft = a verification act */
+  --denim: #13203F;     /* dark bands */
+  --denim-2: #1C2B52;   /* cards on denim */
+  --paper: var(--linen);
+  --paper-2: var(--linen-2);
+  --display: "Archivo", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+  --mono: "Plex Mono", "Cascadia Mono", Consolas, ui-monospace, monospace;
+  --gut: 64px;
+  --max: 1312px;
+  color-scheme: light;
+}
+/* inside a denim band, the same tokens flip */
+.night {
+  --ink: #F1ECE2;
+  --ink-2: #BAC3DB;     /* 8.4:1 on denim */
+  --rule: rgba(241,236,226,.2);
+  --accent: #8DB3FF;    /* 7.2:1 on denim */
+  --paper-2: var(--denim-2);
+}

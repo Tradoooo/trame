@@ -1,0 +1,16 @@
+/* theme.css — tokens. One accent (#0052CC), reserved for weft passes = verification acts. */
+:root {
+  --paper: #F3EEE4;
+  --paper-2: #E8E0D0;
+  --paper-3: #DDD3C0;
+  --ink: #15171C;
+  --ink-2: #4A4D55;     /* 7.6:1 on paper */
+  --rule: #C9BEA9;
+  --accent: #0052CC;    /* 6.0:1 on paper */
+  --void: #121317;
+  --display: "Archivo", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+  --mono: "Plex Mono", "Cascadia Mono", Consolas, ui-monospace, monospace;
+  --gut: clamp(20px, 4.4vw, 64px);
+  --max: 1312px;
+  color-scheme: light;
+}

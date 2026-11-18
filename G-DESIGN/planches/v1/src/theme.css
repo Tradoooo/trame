@@ -1,0 +1,17 @@
+/* Trame planches v1 — theme: "Loom on ink" tokens & scene lighting */
+:root{
+  --glow:radial-gradient(1200px 600px at 70% -10%, rgba(76,141,255,.14), transparent 60%);
+  --paper-shadow:0 30px 60px rgba(0,0,0,.55), 0 8px 20px rgba(0,0,0,.4);
+  --screen-shadow:0 40px 80px rgba(0,0,0,.6), 0 0 0 1px #2E3442;
+}
+body{background:var(--ink) , var(--ink)}
+body::before{content:"";position:fixed;inset:0;background:var(--glow);pointer-events:none}
+.sheet{background:linear-gradient(160deg,#F7F3EA,#EDE7D9);border-radius:14px;box-shadow:var(--paper-shadow)}
+.scene{position:relative;border-radius:14px;overflow:hidden}
+.scene-note{position:absolute;font-family:var(--mono);font-size:11px;color:var(--ivory-dim);letter-spacing:.06em}
+.scene-note::before{content:"— ";color:var(--accent)}
+.mono{font-family:var(--mono)}
+.danger-t{color:var(--danger)}
+.ok-t{color:var(--machine)}
+.warn-t{color:var(--declared)}
+.dim{color:var(--ivory-dim)}

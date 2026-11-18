@@ -1,0 +1,50 @@
+<!doctype html><html lang="fr"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Trame · planches v3 — revue</title><style>
+body{margin:0;background:#F3EEE4;color:#15171C;font:17px/1.5 system-ui,sans-serif;padding:32px clamp(16px,4vw,56px)}
+h1{font-size:40px;letter-spacing:-.03em;margin:0 0 6px}ul{list-style:none;padding:0;display:grid;gap:28px;grid-template-columns:repeat(auto-fill,minmax(400px,1fr))}
+img{width:100%;border-radius:10px;box-shadow:6px 10px 24px rgba(59,47,28,.2)}a{color:#0052CC}.s{font:600 15px monospace;padding:2px 8px;border-radius:6px}
+.OK{background:#15171C;color:#F3EEE4}.FAIL{background:#B3261E;color:#fff}pre{background:#15171C;color:#E9E4DA;padding:18px;border-radius:10px;overflow:auto;font-size:14px}</style>
+<h1>Trame — 5 planches v3</h1><p>Direction « Linen &amp; Denim » · desktop 1440×900 seul · 2026-11-18 15:47 · vérification globale : <b>OK</b> · <a href="captures/planche-contact.jpg">planche-contact.jpg</a> · <a href="PLAN.md">PLAN.md</a> · <a href="REFS.md">REFS.md</a></p>
+<ul><li><a href="dist/01-trame.html"><img src="captures/01-trame-1440x900.png" alt="Trame — the thread that is missing" loading="lazy"></a>
+  <p><b>01</b> <a href="dist/01-trame.html">the thread that is missing</a> <span class="s OK">OK</span></p>
+  <p class="l"><a href="captures/full-01-trame.png">page entière</a></p></li><li><a href="dist/02-probleme.html"><img src="captures/02-probleme-1440x900.png" alt="Trame — covered, until the criterion changed" loading="lazy"></a>
+  <p><b>02</b> <a href="dist/02-probleme.html">covered, until the criterion changed</a> <span class="s OK">OK</span></p>
+  <p class="l"><a href="captures/full-02-probleme.png">page entière</a></p></li><li><a href="dist/03-pipeline.html"><img src="captures/03-pipeline-1440x900.png" alt="Trame — eight passes, from criterion to certificate" loading="lazy"></a>
+  <p><b>03</b> <a href="dist/03-pipeline.html">eight passes, from criterion to certificate</a> <span class="s OK">OK</span></p>
+  <p class="l"><a href="captures/full-03-pipeline.png">page entière</a></p></li><li><a href="dist/04-produit.html"><img src="captures/04-produit-1440x900.png" alt="Trame — the weave, inside Jira" loading="lazy"></a>
+  <p><b>04</b> <a href="dist/04-produit.html">the weave, inside Jira</a> <span class="s OK">OK</span></p>
+  <p class="l"><a href="captures/full-04-produit.png">page entière</a></p></li><li><a href="dist/05-preuves.html"><img src="captures/05-preuves-1440x900.png" alt="Trame — measured, traceable, honest" loading="lazy"></a>
+  <p><b>05</b> <a href="dist/05-preuves.html">measured, traceable, honest</a> <span class="s OK">OK</span></p>
+  <p class="l"><a href="captures/full-05-preuves.png">page entière</a></p></li></ul><h2>Sortie de verify.mjs</h2><pre>OK   01-trame.html | 1440x900 | 0 erreur JS | 0 requête externe | marque+slogan(h1)+badge:111 scène:1 | chevauchements:0 | contraste min 5.20:1 (&lt;AA:0) | texte&lt;16px:0 | scroll-x:0 | data-src:7
+OK   01-trame.html | prefers-reduced-motion | animations en cours:0 | éléments masqués:0
+OK   02-probleme.html | 1440x900 | 0 erreur JS | 0 requête externe | marque+slogan(h1)+badge:111 scène:1 | chevauchements:0 | contraste min 5.79:1 (&lt;AA:0) | texte&lt;16px:0 | scroll-x:0 | data-src:2
+OK   02-probleme.html | prefers-reduced-motion | animations en cours:0 | éléments masqués:0
+OK   03-pipeline.html | 1440x900 | 0 erreur JS | 0 requête externe | marque+slogan(h1)+badge:111 scène:1 | chevauchements:0 | contraste min 5.79:1 (&lt;AA:0) | texte&lt;16px:0 | scroll-x:0 | data-src:1
+OK   03-pipeline.html | prefers-reduced-motion | animations en cours:0 | éléments masqués:0
+OK   04-produit.html | 1440x900 | 0 erreur JS | 0 requête externe | marque+slogan(h1)+badge:111 scène:1 | chevauchements:0 | contraste min 5.79:1 (&lt;AA:0) | texte&lt;16px:0 | scroll-x:0 | data-src:5
+OK   04-produit.html | prefers-reduced-motion | animations en cours:0 | éléments masqués:0
+OK   05-preuves.html | 1440x900 | 0 erreur JS | 0 requête externe | marque+slogan(h1)+badge:111 scène:1 | chevauchements:0 | contraste min 5.79:1 (&lt;AA:0) | texte&lt;16px:0 | scroll-x:0 | data-src:13
+OK   05-preuves.html | prefers-reduced-motion | animations en cours:0 | éléments masqués:0
+OK   03-pipeline.html | étapes .step rendues: 8 (attendu 8)
+OK   P3 | 8 étapes nommées | 27/27 chemins réels présents dans le repo
+OK   chiffre written=24 | docs/CAPTURES.md | extrait trouvé
+OK   chiffre verifiable=18 | docs/CAPTURES.md | extrait trouvé
+OK   chiffre unfalsifiable=4 | docs/CAPTURES.md | extrait trouvé
+OK   chiffre covered=13/18 | docs/CAPTURES.md | extrait trouvé
+OK   chiffre provisional=1 | docs/CAPTURES.md | extrait trouvé
+OK   chiffre holes=4 | docs/captures/04-trame.png | fichier image présent (lu visuellement)
+OK   chiffre perforations=3 | src/sample/demo-project.ts | extrait trouvé
+OK   chiffre tests=455 | README.md | extrait trouvé
+OK   chiffre lint=0 | docs/SUBMISSION.md | extrait trouvé
+OK   chiffre mcp=14 | README.md | extrait trouvé
+OK   chiffre screens=11 | README.md | extrait trouvé
+OK   chiffre tables=15 | src/db/schema.ts | extrait trouvé
+OK   chiffre perms=18 | docs/SUBMISSION.md | extrait trouvé
+OK   chiffre recette=20/20 | docs/SUBMISSION.md | extrait trouvé
+OK   chiffre entries=5 | README.md | extrait trouvé
+OK   chiffre version=v2.1.0 | README.md | extrait trouvé
+OK   chiffre jql=4 | README.md | extrait trouvé
+OK   chiffre modules=18 | docs/SUBMISSION.md | extrait trouvé
+OK   P2 cas | src/sample/demo-project.ts | « editedAgo: 34 »
+OK   P2 cas | src/sample/demo-project.ts | « testShouldBeStable', executedAgo: 40 »
+OK   P2 cas | src/sample/demo-project.ts | « DEMO_NOW = '2026-11-12 »</pre></html>
